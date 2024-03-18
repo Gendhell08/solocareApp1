@@ -44,7 +44,7 @@ import uploadRequirementspagetwo from './pages/uploadRequirementspagetwo';
 import uploadRequirementspagethree from './pages/uploadRequirementspagethree';
 import requirementSubmit from './pages/requirementSubmit';
 import requirementStatuspending from './pages/requirementStatuspending';
-import requirementStatusresubmit from './pages/requirementStatusreject';
+
 import requirementStatusapproved from './pages/requirementStatusapproved';
 
 setupIonicReact();
@@ -80,7 +80,7 @@ const App: React.FC = () => (
         <Route exact path='/uploadRequirementspagethree' component={uploadRequirementspagethree}></Route>
         <Route exact path='/requirementSubmit' component={requirementSubmit}></Route>
         <Route exact path='/requirementStatuspending' component={requirementStatuspending}></Route>
-        <Route exact path='/requirementStatusresubmit' component={requirementStatusresubmit}></Route>
+        <Route exact path='/requirementStatusresubmit' component={requirementSubmit}></Route>
         <Route exact path='/requirementStatusapproved' component={requirementStatusapproved}></Route>
         <Route exact path="/">
           <Redirect to="/splashScreen" />
